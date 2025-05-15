@@ -1,0 +1,71 @@
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  min-height: 1029px;
+  max-width: 1440px;
+  background: linear-gradient(90deg, rgb(255, 255, 255) 50%, rgb(217, 227, 239) 0%);
+}
+/* menu, nav */
+a {
+  text-decoration: none;
+  color: #000;
+}
+nav, menu {
+  display: flex;
+  width: 75%;
+  margin-left: 12.5%;
+}
+.nav_ul1 {
+  display: flex;
+  width: 100%;
+  gap: 64px;
+  justify-content: flex-end;
+}
+.nav_ul2 {
+  display: flex;
+  width: 100%;
+  gap: 19px;
+  margin-top: -50px;
+}
+.border {
+  border: 2px solid rgb(0, 0, 0);
+}
+.nav_dolly {
+  font-style: 16px;
+  font-weight: 600;
+  padding-top: 9px;
+  height: 41px;
+  width: 106px;
+  text-align: center;
+}
+.nav_menu {
+  margin: auto 0;
+}
+li {
+  list-style-type: none;
+}
+main img {
+  margin-left: 50%;
+}
+h1 {
+  color: rgb(55, 55, 55);
+  font-size: 60px;
+  font-weight: 700;
+  margin-top: -50%;
+  text-align: center;
+}
+.watch {
+  margin-left: 25%;
+  border: 2px solid rgb(0, 0, 0);
+  color: #fff;
+  background: rgb(55, 55, 55);
+  padding: 22px 55px 22px 55px;
+}
